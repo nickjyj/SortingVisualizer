@@ -1,6 +1,6 @@
 # SortingVisualizer
 Python Sorting Visualizer based on https://github.com/FahadulShadhin/Sorting-Algorithms-Visualizer \
-Sorting algorithms implemented: \
+Sorting algorithms implemented: 
 - quicksort 
 - mergesort 
 
