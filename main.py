@@ -3,6 +3,7 @@ from tkinter import ttk
 import random
 from colors import *
 from algorithms.mergeSort import merge_sort
+from algorithms.quickSort import quick_sort
 
 
 if __name__ =='__main__':
@@ -10,7 +11,7 @@ if __name__ =='__main__':
     window = Tk()
     window.title("Sorting Algorithms Visualization")
     window.maxsize(1000, 700)
-    window.config(bg = WHITE)
+    window.config(bg = BLACK)
 
     algorithm_name = StringVar()
     # algo_list is to select which alforithm we want to use to sort
@@ -69,7 +70,7 @@ if __name__ =='__main__':
         timeTick = set_speed()
         
         if algo_menu.get() == 'Quick Sort':
-            quick_sort(data, drawData, timeTick)
+            quick_sort(data, 0, len(data)-1, drawData, timeTick)
             
         elif algo_menu.get() == 'Merge Sort':
             merge_sort(data, 0, len(data)-1, drawData, timeTick)
