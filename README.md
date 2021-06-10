@@ -6,7 +6,7 @@ Sorting algorithms implemented:
 
 ___
 
-Built with 
+Built with: \
 Python 3.9 \
 tkinter 0.1 
 
