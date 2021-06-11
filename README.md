@@ -3,13 +3,17 @@ Python Sorting Visualizer based on https://github.com/FahadulShadhin/Sorting-Alg
 
 ---
 
-https://user-images.githubusercontent.com/46984040/121607845-c5207380-ca1e-11eb-8f69-b964174438df.mov
+
+https://user-images.githubusercontent.com/46984040/121751550-628dad00-cadc-11eb-901d-a3c051ba52b8.mov
+
+
 
 ---
 
 Sorting algorithms implemented: 
 - quicksort 
 - mergesort 
+- heapsort
 
 ___
 
