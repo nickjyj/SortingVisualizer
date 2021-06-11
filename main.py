@@ -4,6 +4,7 @@ from colors import Color
 import random
 from algorithms.mergeSort import MergeSort
 from algorithms.quickSort import QuickSort
+from algorithms.heapSort import HeapSort
 
 
 if __name__ =='__main__':
@@ -14,7 +15,7 @@ if __name__ =='__main__':
     window.config(bg = Color.WHITE)
 
     algorithm_name = StringVar()
-    algo_list = {'Quick Sort':QuickSort(), 'Merge Sort':MergeSort()}
+    algo_list = {'Quick Sort':QuickSort(), 'Merge Sort':MergeSort(), 'Heap Sort':HeapSort()}
     cur_algorithm = algo_list['Quick Sort']
 
     speed_name = StringVar()
@@ -85,11 +86,11 @@ if __name__ =='__main__':
     speed_menu.current(0)
 
     # button for generating array 
-    b3 = Button(UI_frame, text="Generate Array", command=generate, bg=Color.LIGHT_GRAY)
+    b3 = Button(UI_frame, text="Generate Array", command=generate, bg=Color.WHITE)
     b3.grid(row=2, column=0, padx=5, pady=5)
 
     # sort button 
-    b1 = Button(UI_frame, text="Sort", command=sort, bg=Color.LIGHT_GRAY)
+    b1 = Button(UI_frame, text="Sort", command=sort, bg=Color.WHITE)
     b1.grid(row=2, column=1, padx=5, pady=5)
 
     # canvas to draw our array 
