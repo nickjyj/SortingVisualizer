@@ -1,5 +1,5 @@
 # SortingVisualizer
-Python Sorting Visualizer based on https://github.com/FahadulShadhin/Sorting-Algorithms-Visualizer \
+Python Sorting Visualizer based on https://github.com/FahadulShadhin/Sorting-Algorithms-Visualizer 
 
 ---
 
